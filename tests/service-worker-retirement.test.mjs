@@ -36,4 +36,5 @@ test('application entry no longer loads or registers offline features',async()=>
   const app=await readFile(new URL('../dist/app.js',import.meta.url),'utf8');
   assert.doesNotMatch(html,/manifest\.webmanifest|offline\.css|apple-mobile-web-app/);
   assert.doesNotMatch(app,/offlineSupport|offline-status|offline\.js|serviceWorker\.register/);
+  assert.match(html,/src="\.\/app\.js\?v=/,'A new entry URL avoids reusing the old offline script from the HTTP cache.');
 });
