@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "织间 · Knit Studio",
+  "short_name": "织间",
+  "description": "离线绘制提花、设计版型和生成编织图解。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5ee",
+  "theme_color": "#bb6b73",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

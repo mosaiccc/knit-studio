@@ -1,0 +1,13 @@
+node_modules/
+outputs/
+.openai/
+.env
+.env.*
+!.env.example
+*.log
+*.tar.gz
+*.zip
+*.knit.json
+*.knit-motif.json
+mmexport*
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "name": "knit-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:offline": "node scripts/build-offline.mjs",
+    "start": "node server.mjs",
+    "test": "node --test --test-isolation=none tests/*.test.mjs"
+  }
+}
